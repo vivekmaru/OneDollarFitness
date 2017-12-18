@@ -196,7 +196,7 @@ footer {
 }
 
 .box {
-    padding: 40px auto;
+    margin: 40px auto;
     flex: 1;
 
 }
