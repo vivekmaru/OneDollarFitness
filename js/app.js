@@ -3,3 +3,5 @@
 //     left: 0,
 //     behavior: 'smooth'
 //   });
+
+const explore = document.querySelector('#explore');

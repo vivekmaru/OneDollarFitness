@@ -223,7 +223,6 @@ footer {
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
     border-radius: 2px;
-    min-width: 250px;
     flex: 0 1 auto;
 }
 
@@ -276,7 +275,9 @@ footer {
 /* Media queries */
 
 @media all and (max-width: 600px) {
-    .box { flex: 1 auto; }
+    .box {
+        flex: 1 auto;
+    }
     .pricing-grid {
         justify-content: start;
         flex-wrap: nowrap;
